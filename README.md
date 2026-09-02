@@ -13,4 +13,4 @@ Puoi scaricare l'ultima versione dell'app per Android direttamente dalla sezione
 L'applicazione è dotata di un sistema di auto-aggiornamento integrato. Una volta installata la prima versione, l'app controllerà automaticamente la presenza di nuove release su questa repository e ti proporrà l'installazione nativa senza dover tornare su questa pagina.
 
 ---
-*Familiya è l'app definitiva per la gestione dei menù settimanali, della spesa e del ricettario di famiglia.*
+*Familiya è l'app definitiva per la gestione dei menù settimanali, della spesa, del ricettario e dei compiti e premi di famiglia.*
