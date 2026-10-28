@@ -46,4 +46,4 @@ Familiya integra un motore nativo di aggiornamento **Over-The-Air (`UpdateServic
 
 ---
 
-*Ultimo sincronismo automatico della documentazione: **2026-10-28 21:15 UTC***
+*Ultimo sincronismo automatico della documentazione: **2026-10-28 21:25 UTC***
