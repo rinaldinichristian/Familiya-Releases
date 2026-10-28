@@ -1,16 +1,49 @@
-# Familiya 👨‍👩‍👧‍👦 - Releases & OTA Updates
+# 🏡 Familiya — Public Releases & OTA Distribution Hub
 
-Benvenuto nella repository pubblica di **Familiya**!
+<p align="center">
+  <img src="https://img.shields.io/badge/Latest_Release-v1.17.0%2B104-2D6A4F?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=black" />
+  <img src="https://img.shields.io/badge/OTA_Updates-Active-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+</p>
 
-Questa repository funge esclusivamente come **CDN (Content Delivery Network)** e server di distribuzione per gli aggiornamenti OTA (Over-The-Air) dell'applicazione Familiya per dispositivi Android.
+Benvenuto nella repository pubblica ufficiale di distribuzione di **Familiya**!
 
-> 🔒 **Nota:** Il codice sorgente dell'applicazione Familiya è privato. Questa repository contiene unicamente i file eseguibili (`.apk`) nelle varie versioni rilasciate.
+Questa repository funge da **CDN (Content Delivery Network)** e server di distribuzione per gli aggiornamenti **OTA (Over-The-Air)** dell'applicazione **Familiya** per dispositivi Android.
 
-## Come scaricare l'app
-Puoi scaricare l'ultima versione dell'app per Android direttamente dalla sezione **[Releases](https://github.com/rinaldinichristian/Familiya-Releases/releases)** a destra in questa pagina.
-
-## Sistema di Aggiornamento
-L'applicazione è dotata di un sistema di auto-aggiornamento integrato. Una volta installata la prima versione, l'app controllerà automaticamente la presenza di nuove release su questa repository e ti proporrà l'installazione nativa senza dover tornare su questa pagina.
+> 🔒 **Nota sulla Privacy del Codice:** Il codice sorgente di Familiya è custodito in una repository privata (`rinaldinichristian/Familiya`). Questa repository pubblica ospita esclusivamente i pacchetti di installazione certificati (`.apk`) e le note di rilascio delle versioni ufficiali.
 
 ---
-*Familiya è l'app definitiva per la gestione dei menù settimanali, della spesa, del ricettario e dei compiti e premi di famiglia.*
+
+## 📲 Scarica l'Ultima Versione (`v1.17.0+104`)
+
+Puoi scaricare e installare l'ultima versione stabile per Android direttamente da qui:
+
+- 👉 **[Scarica l'ultima Release (`v1.17.0+104`)](https://github.com/rinaldinichristian/Familiya-Releases/releases/latest)**
+- 📦 **[Archivio di tutte le Releases](https://github.com/rinaldinichristian/Familiya-Releases/releases)**
+
+---
+
+## 🔄 Sistema di Aggiornamento Automatico (OTA)
+
+Familiya integra un motore nativo di aggiornamento **Over-The-Air (`UpdateService`)**:
+1. Ad ogni nuovo rilascio pubblicato tramite la pipeline CI/CD di GitHub Actions, una **Firebase Cloud Function (`notifyAppUpdate`)** invia una notifica push sul topic `updates` a tutti i dispositivi della famiglia.
+2. All'apertura dell'app, **Familiya** interroga automaticamente le API di questa repository (`rinaldinichristian/Familiya-Releases`), confronta il numero di versione e build (`v1.17.0+104`) con quello installato e mostra un banner dedicato per scaricare e installare il nuovo APK direttamente dall'app.
+
+---
+
+## ✨ Cosa Include Familiya (`v1.17.0+104`)
+
+| Modulo | Funzionalità Principali |
+| :--- | :--- |
+| **👨‍👩‍👧‍👦 Ruoli & Fasce d'Età** | Profili **Genitore** (amministratore), **Ragazzo (11–17 anni)** con autonomia in cucina e **Bambino (4–10 anni)** protetto da **Parental Gate** conforme a COPPA/GDPR-K. |
+| **🍳 AI Meal Planner & Diete** | **396 ricette** strutturate passo-passo su 6 portate; supporto per dieta Mediterranea, Vegetariana, Vegana, Senza Glutine/Lattosio, **Yogica (Mitahara)** e **Ayurvedica Classica Unificata**; gestione assenze e **Modalità Schiscetta/Thermos**. |
+| **⚡ Cucina al Volo** | Motore istantaneo (`QuickRecipeMatcher`) che suggerisce cosa cucinare subito con gli ingredienti già presenti in dispensa (`Pronte 100%` o `Manca 1 ingrediente`). |
+| **🛒 Spesa Smart & Prezzi ISTAT** | **566 ingredienti Open Food Facts**, calcolo prezzi calibrato su **107 province italiane** e confronto carrello in tempo reale tra **6 catene GDO** (*Esselunga, Conad, Coop, Carrefour, Lidl, Eurospin*). |
+| **🥗 Diario Benessere (YAZIO-style)** | Tracciamento calorie e macronutrienti scalati sulle porzioni, contatore bicchieri d'acqua e monitoraggio corporeo nella Dashboard. |
+| **🎯 Gamification, Mascotte & Premi** | Missioni con prova fotografica, revisione genitori, 6 **Mascotte Interattive** sbloccabili e **Negozio Premi Segmentato** (*Tutti i Figli*, *Solo Bambini*, *Solo Ragazzi*, *Solo Genitori 🔒*). |
+| **💬 Chat Familiare Sicura** | Messaggi in tempo reale, foto, note vocali, **Sticker Familiari** categorizzati e libreria GIF curata. |
+| **💎 Monetizzazione Etica** | Rispetto rigoroso Google Play Families / COPPA, card **Sponsor Etico** e piano **Familiya Plus**. |
+
+---
+
+*Ultimo sincronismo automatico della documentazione: **2026-10-28 19:42 UTC***
