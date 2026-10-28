@@ -1,7 +1,7 @@
 # 🏡 Familiya — Public Releases & OTA Distribution Hub
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Latest_Release-v1.18.0%2B105-2D6A4F?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Latest_Release-v1.18.1%2B106-2D6A4F?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Platform-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=black" />
   <img src="https://img.shields.io/badge/OTA_Updates-Active-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 </p>
@@ -14,11 +14,11 @@ Questa repository funge da **CDN (Content Delivery Network)** e server di distri
 
 ---
 
-## 📲 Scarica l'Ultima Versione (`v1.18.0+105`)
+## 📲 Scarica l'Ultima Versione (`v1.18.1+106`)
 
 Puoi scaricare e installare l'ultima versione stabile per Android direttamente da qui:
 
-- 👉 **[Scarica l'ultima Release (`v1.18.0+105`)](https://github.com/rinaldinichristian/Familiya-Releases/releases/latest)**
+- 👉 **[Scarica l'ultima Release (`v1.18.1+106`)](https://github.com/rinaldinichristian/Familiya-Releases/releases/latest)**
 - 📦 **[Archivio di tutte le Releases](https://github.com/rinaldinichristian/Familiya-Releases/releases)**
 
 ---
@@ -27,11 +27,11 @@ Puoi scaricare e installare l'ultima versione stabile per Android direttamente d
 
 Familiya integra un motore nativo di aggiornamento **Over-The-Air (`UpdateService`)**:
 1. Ad ogni nuovo rilascio pubblicato tramite la pipeline CI/CD di GitHub Actions, una **Firebase Cloud Function (`notifyAppUpdate`)** invia una notifica push sul topic `updates` a tutti i dispositivi della famiglia.
-2. All'apertura dell'app, **Familiya** interroga automaticamente le API di questa repository (`rinaldinichristian/Familiya-Releases`), confronta il numero di versione e build (`v1.18.0+105`) con quello installato e mostra un banner dedicato per scaricare e installare il nuovo APK direttamente dall'app.
+2. All'apertura dell'app, **Familiya** interroga automaticamente le API di questa repository (`rinaldinichristian/Familiya-Releases`), confronta il numero di versione e build (`v1.18.1+106`) con quello installato e mostra un banner dedicato per scaricare e installare il nuovo APK direttamente dall'app.
 
 ---
 
-## ✨ Cosa Include Familiya (`v1.18.0+105`)
+## ✨ Cosa Include Familiya (`v1.18.1+106`)
 
 | Modulo | Funzionalità Principali |
 | :--- | :--- |
@@ -46,4 +46,4 @@ Familiya integra un motore nativo di aggiornamento **Over-The-Air (`UpdateServic
 
 ---
 
-*Ultimo sincronismo automatico della documentazione: **2026-10-28 22:18 UTC***
+*Ultimo sincronismo automatico della documentazione: **2026-10-28 23:22 UTC***
